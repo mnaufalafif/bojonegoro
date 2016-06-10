@@ -1,0 +1,1270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>batas_desa.shp</name>
+		<Style id='Style2-polygon-1'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0099ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-1-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0099ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Jetak</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 1<br>
+<b>nama_desa:</b> Desa Jetak<br>
+<b>jml_pddk:</b> 2863
+</div>]]></description>
+			<styleUrl>#Style2-polygon-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>73</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>1</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>2863</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.864436051,-7.16747643487,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.870423,-7.158956,0.0 111.870835,-7.159168,0.0 111.871261,-7.159336,0.0 111.870497,-7.161922,0.0 111.871624,-7.162402,0.0 111.871281,-7.163189,0.0 111.871065,-7.163258,0.0 111.870813,-7.16325,0.0 111.870707,-7.163923,0.0 111.869995,-7.16373,0.0 111.869431,-7.165576,0.0 111.872988,-7.166542,0.0 111.872838,-7.167318,0.0 111.872782,-7.168158,0.0 111.871624,-7.167787,0.0 111.871288,-7.168628,0.0 111.868749,-7.167857,0.0 111.868242,-7.169696,0.0 111.867056,-7.169734,0.0 111.866676,-7.169922,0.0 111.86662,-7.171063,0.0 111.866641,-7.173048,0.0 111.866436,-7.173546,0.0 111.86657,-7.17377,0.0 111.866518,-7.173976,0.0 111.866379,-7.173852,0.0 111.866356,-7.174498,0.0 111.866171,-7.175336,0.0 111.865992,-7.175997,0.0 111.865914,-7.175966,0.0 111.865465,-7.175785,0.0 111.865206,-7.175735,0.0 111.863943,-7.175366,0.0 111.863717,-7.1753,0.0 111.862077,-7.174484,0.0 111.861006,-7.174372,0.0 111.860986,-7.174338,0.0 111.860472,-7.173439,0.0 111.860119,-7.173239,0.0 111.858847,-7.17299,0.0 111.858232,-7.172823,0.0 111.857489,-7.172854,0.0 111.857289,-7.171741,0.0 111.85651,-7.171127,0.0 111.855497,-7.17077,0.0 111.854843,-7.170681,0.0 111.854304,-7.170515,0.0 111.853956,-7.170312,0.0 111.854105,-7.169665,0.0 111.854631,-7.169048,0.0 111.85545,-7.168281,0.0 111.856287,-7.167148,0.0 111.857016,-7.166405,0.0 111.857602,-7.166033,0.0 111.85796,-7.165147,0.0 111.858624,-7.164392,0.0 111.859086,-7.164822,0.0 111.859703,-7.165078,0.0 111.86038,-7.165214,0.0 111.861093,-7.165201,0.0 111.862548,-7.164966,0.0 111.863935,-7.164626,0.0 111.865192,-7.163963,0.0 111.866355,-7.163193,0.0 111.866699,-7.163034,0.0 111.867611,-7.162351,0.0 111.868695,-7.161437,0.0 111.869061,-7.160986,0.0 111.869197,-7.160818,0.0 111.869735,-7.160279,0.0 111.870107,-7.159747,0.0 111.870394,-7.159057,0.0 111.870423,-7.158956,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-multi_geometry-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f99e5ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-multi_geometry-2-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f99e5ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-multi_geometry-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-multi_geometry-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-multi_geometry-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Ledok Kulon</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 18<br>
+<b>nama_desa:</b> Desa Ledok Kulon<br>
+<b>jml_pddk:</b> 11124
+</div>]]></description>
+			<styleUrl>#Style2-multi_geometry-2-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>63</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>18</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>11124</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.872424841,-7.14041054612,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>111.872855,-7.16823,0.0 111.872034,-7.169182,0.0 111.871489,-7.169822,0.0 111.871527,-7.171071,0.0 111.870449,-7.171296,0.0 111.869493,-7.171419,0.0 111.868593,-7.170789,0.0 111.868801,-7.170193,0.0 111.868314,-7.169768,0.0 111.868809,-7.167975,0.0 111.868821,-7.167929,0.0 111.868971,-7.167974,0.0 111.87136,-7.168699,0.0 111.871652,-7.167969,0.0 111.871697,-7.167859,0.0 111.872039,-7.167969,0.0 111.872855,-7.16823,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>111.875825,-7.145085,0.0 111.875443,-7.145971,0.0 111.875228,-7.146426,0.0 111.874246,-7.146249,0.0 111.873371,-7.146143,0.0 111.871789,-7.14599,0.0 111.870855,-7.145956,0.0 111.869777,-7.146146,0.0 111.869289,-7.144913,0.0 111.869278,-7.14489,0.0 111.868784,-7.143816,0.0 111.867861,-7.142403,0.0 111.867291,-7.141607,0.0 111.867104,-7.141105,0.0 111.866426,-7.139879,0.0 111.865755,-7.138609,0.0 111.865452,-7.137856,0.0 111.865263,-7.137203,0.0 111.865076,-7.136708,0.0 111.865327,-7.136693,0.0 111.865269,-7.136234,0.0 111.86572,-7.135544,0.0 111.866021,-7.135005,0.0 111.86628,-7.134968,0.0 111.866898,-7.134895,0.0 111.867652,-7.134736,0.0 111.868665,-7.134447,0.0 111.869801,-7.134395,0.0 111.870534,-7.134508,0.0 111.871606,-7.134765,0.0 111.873246,-7.135458,0.0 111.874555,-7.136145,0.0 111.875138,-7.136546,0.0 111.875664,-7.137076,0.0 111.876737,-7.138036,0.0 111.877356,-7.138738,0.0 111.877782,-7.139549,0.0 111.878147,-7.140453,0.0 111.878179,-7.140531,0.0 111.878641,-7.141485,0.0 111.878714,-7.1416,0.0 111.877879,-7.142006,0.0 111.877174,-7.142797,0.0 111.876636,-7.143576,0.0 111.876242,-7.144163,0.0 111.875825,-7.145085,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f00ffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f00ffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Pacul</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 2<br>
+<b>nama_desa:</b> Desa Pacul<br>
+<b>jml_pddk:</b> 5493
+</div>]]></description>
+			<styleUrl>#Style2-polygon-3-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>68</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>2</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>5493</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.873559325,-7.17664280927,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.872856,-7.168213,0.0 111.874157,-7.167961,0.0 111.875806,-7.168101,0.0 111.877187,-7.168482,0.0 111.879373,-7.168918,0.0 111.878631,-7.171906,0.0 111.878948,-7.172374,0.0 111.87914,-7.172699,0.0 111.879802,-7.17288,0.0 111.880215,-7.173224,0.0 111.880647,-7.173529,0.0 111.878931,-7.178415,0.0 111.881108,-7.179435,0.0 111.881444,-7.179606,0.0 111.882586,-7.180427,0.0 111.88338,-7.181147,0.0 111.882853,-7.181426,0.0 111.882842,-7.181447,0.0 111.882471,-7.182173,0.0 111.882165,-7.18271,0.0 111.881957,-7.183849,0.0 111.880884,-7.184301,0.0 111.879638,-7.184131,0.0 111.878928,-7.183884,0.0 111.87795,-7.183819,0.0 111.877184,-7.184203,0.0 111.876927,-7.185017,0.0 111.876372,-7.185325,0.0 111.875576,-7.185278,0.0 111.875243,-7.183958,0.0 111.87402,-7.183924,0.0 111.873417,-7.184127,0.0 111.872152,-7.184158,0.0 111.87144,-7.184044,0.0 111.870887,-7.184239,0.0 111.87011,-7.183803,0.0 111.870431,-7.182919,0.0 111.871257,-7.182185,0.0 111.871709,-7.181682,0.0 111.871828,-7.180403,0.0 111.871389,-7.179844,0.0 111.871193,-7.179163,0.0 111.871027,-7.178538,0.0 111.870091,-7.177535,0.0 111.8694,-7.177314,0.0 111.867969,-7.176792,0.0 111.866602,-7.176285,0.0 111.866064,-7.176069,0.0 111.866243,-7.175408,0.0 111.866428,-7.17457,0.0 111.866451,-7.173924,0.0 111.86659,-7.174048,0.0 111.866642,-7.173842,0.0 111.866508,-7.173617,0.0 111.866713,-7.173119,0.0 111.866692,-7.171135,0.0 111.866748,-7.169993,0.0 111.867128,-7.169806,0.0 111.868314,-7.169768,0.0 111.868801,-7.170193,0.0 111.868593,-7.170789,0.0 111.869493,-7.171419,0.0 111.870449,-7.171296,0.0 111.871527,-7.171071,0.0 111.871489,-7.169822,0.0 111.872034,-7.169182,0.0 111.872855,-7.16823,0.0 111.872856,-7.168213,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-4'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fff0099</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-4-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fff0099</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-4-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-4</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-4-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Klangon</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 5<br>
+<b>nama_desa:</b> Desa Klangon<br>
+<b>jml_pddk:</b> 3609
+</div>]]></description>
+			<styleUrl>#Style2-polygon-4-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>63</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>5</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>3609</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.874925504,-7.1559718152,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.870851,-7.151344,0.0 111.871959,-7.151481,0.0 111.87319,-7.151646,0.0 111.874188,-7.151807,0.0 111.875046,-7.151964,0.0 111.875951,-7.152034,0.0 111.876661,-7.15208,0.0 111.877567,-7.15216,0.0 111.878161,-7.152173,0.0 111.878693,-7.152177,0.0 111.87957,-7.152257,0.0 111.879714,-7.152486,0.0 111.878575,-7.153034,0.0 111.878575,-7.153388,0.0 111.878672,-7.153661,0.0 111.878787,-7.153852,0.0 111.878902,-7.154029,0.0 111.879041,-7.154129,0.0 111.879219,-7.154296,0.0 111.879684,-7.154491,0.0 111.879015,-7.155455,0.0 111.878552,-7.156207,0.0 111.878084,-7.156998,0.0 111.877946,-7.157439,0.0 111.877736,-7.157889,0.0 111.878666,-7.15828,0.0 111.878308,-7.158932,0.0 111.87794,-7.159334,0.0 111.877596,-7.159818,0.0 111.877385,-7.160159,0.0 111.877094,-7.1606,0.0 111.876523,-7.160419,0.0 111.876111,-7.160338,0.0 111.875492,-7.160023,0.0 111.875205,-7.159938,0.0 111.874763,-7.159853,0.0 111.874509,-7.159805,0.0 111.874332,-7.159872,0.0 111.874189,-7.160012,0.0 111.874098,-7.160184,0.0 111.873849,-7.160256,0.0 111.873801,-7.160199,0.0 111.873628,-7.160142,0.0 111.873446,-7.160085,0.0 111.87326,-7.160102,0.0 111.872555,-7.159773,0.0 111.871793,-7.159573,0.0 111.871333,-7.159408,0.0 111.870907,-7.159239,0.0 111.870763,-7.159166,0.0 111.870495,-7.159028,0.0 111.870604,-7.158652,0.0 111.870644,-7.158511,0.0 111.870736,-7.157678,0.0 111.870821,-7.157089,0.0 111.871071,-7.156306,0.0 111.87115,-7.156055,0.0 111.871212,-7.154848,0.0 111.871204,-7.15358,0.0 111.871202,-7.153434,0.0 111.871062,-7.152632,0.0 111.870955,-7.152027,0.0 111.870851,-7.151344,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-5'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fff0000</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-5-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fff0000</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-5-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-5</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-5-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Sumbang</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 4<br>
+<b>nama_desa:</b> Desa Sumbang<br>
+<b>jml_pddk:</b> 5257
+</div>]]></description>
+			<styleUrl>#Style2-polygon-5-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>61</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>4</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>5257</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.87643483,-7.1618062711,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.879542,-7.154696,0.0 111.882465,-7.156493,0.0 111.882274,-7.158368,0.0 111.882102,-7.158705,0.0 111.882003,-7.159416,0.0 111.882502,-7.161081,0.0 111.882266,-7.161742,0.0 111.881895,-7.162872,0.0 111.881594,-7.163562,0.0 111.881131,-7.164472,0.0 111.880764,-7.165253,0.0 111.88032,-7.16623,0.0 111.879867,-7.167361,0.0 111.879367,-7.168917,0.0 111.878925,-7.168829,0.0 111.87794,-7.168632,0.0 111.877187,-7.168482,0.0 111.875911,-7.16813,0.0 111.875806,-7.168101,0.0 111.874157,-7.167961,0.0 111.872856,-7.168213,0.0 111.87291,-7.16739,0.0 111.87306,-7.166614,0.0 111.869503,-7.165648,0.0 111.870067,-7.163802,0.0 111.870779,-7.163994,0.0 111.870886,-7.163321,0.0 111.871137,-7.16333,0.0 111.871353,-7.163261,0.0 111.871696,-7.162473,0.0 111.870569,-7.161994,0.0 111.871333,-7.159408,0.0 111.871793,-7.159573,0.0 111.872555,-7.159773,0.0 111.87326,-7.160102,0.0 111.873446,-7.160085,0.0 111.873628,-7.160142,0.0 111.873801,-7.160199,0.0 111.873849,-7.160256,0.0 111.874098,-7.160184,0.0 111.874189,-7.160012,0.0 111.874332,-7.159872,0.0 111.874509,-7.159805,0.0 111.874763,-7.159853,0.0 111.875205,-7.159938,0.0 111.875492,-7.160023,0.0 111.876111,-7.160338,0.0 111.876523,-7.160419,0.0 111.877094,-7.1606,0.0 111.877385,-7.160159,0.0 111.877596,-7.159818,0.0 111.87794,-7.159334,0.0 111.878308,-7.158932,0.0 111.878666,-7.15828,0.0 111.877736,-7.157889,0.0 111.877946,-7.157439,0.0 111.878084,-7.156998,0.0 111.878552,-7.156207,0.0 111.879015,-7.155455,0.0 111.879487,-7.154775,0.0 111.879542,-7.154696,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-6'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fffff00</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-6-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fffff00</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-6-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-6</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-6-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Sukorejo</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 3<br>
+<b>nama_desa:</b> Desa Sukorejo<br>
+<b>jml_pddk:</b> 12407
+</div>]]></description>
+			<styleUrl>#Style2-polygon-6-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>98</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>3</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>12407</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.88927691,-7.16871359347,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.882465,-7.156493,0.0 111.882501,-7.15628,0.0 111.882698,-7.156308,0.0 111.883091,-7.156528,0.0 111.883398,-7.156814,0.0 111.883713,-7.157031,0.0 111.885344,-7.157949,0.0 111.886735,-7.15882,0.0 111.887215,-7.15931,0.0 111.888893,-7.159642,0.0 111.890055,-7.159735,0.0 111.892248,-7.159731,0.0 111.894775,-7.159487,0.0 111.895602,-7.159533,0.0 111.895912,-7.158898,0.0 111.896498,-7.158562,0.0 111.897347,-7.157615,0.0 111.898979,-7.158665,0.0 111.899302,-7.1587,0.0 111.900274,-7.159404,0.0 111.901437,-7.159904,0.0 111.902432,-7.160477,0.0 111.90297,-7.159486,0.0 111.903484,-7.159608,0.0 111.903472,-7.159644,0.0 111.903353,-7.160016,0.0 111.903208,-7.16047,0.0 111.903354,-7.160518,0.0 111.904068,-7.160751,0.0 111.904493,-7.160889,0.0 111.90436,-7.161358,0.0 111.904724,-7.161453,0.0 111.904409,-7.162316,0.0 111.903901,-7.162125,0.0 111.903701,-7.162786,0.0 111.901323,-7.162015,0.0 111.90091,-7.161949,0.0 111.899884,-7.161635,0.0 111.898551,-7.161073,0.0 111.897636,-7.163516,0.0 111.899342,-7.163608,0.0 111.899076,-7.164891,0.0 111.899901,-7.165043,0.0 111.899701,-7.16578,0.0 111.898943,-7.165619,0.0 111.898744,-7.16651,0.0 111.8979,-7.166176,0.0 111.897489,-7.167077,0.0 111.899023,-7.167428,0.0 111.89868,-7.168367,0.0 111.899217,-7.16849,0.0 111.898845,-7.169362,0.0 111.89991,-7.169733,0.0 111.89971,-7.170758,0.0 111.896769,-7.171262,0.0 111.896712,-7.171692,0.0 111.89532,-7.170508,0.0 111.894814,-7.171304,0.0 111.894097,-7.172234,0.0 111.893361,-7.173173,0.0 111.892691,-7.173538,0.0 111.891761,-7.173827,0.0 111.891063,-7.174575,0.0 111.890701,-7.175533,0.0 111.890415,-7.176166,0.0 111.889468,-7.177574,0.0 111.887745,-7.178554,0.0 111.886376,-7.179122,0.0 111.885514,-7.179497,0.0 111.884566,-7.180025,0.0 111.883925,-7.180572,0.0 111.88338,-7.181147,0.0 111.882586,-7.180427,0.0 111.881444,-7.179606,0.0 111.881108,-7.179435,0.0 111.878931,-7.178415,0.0 111.880647,-7.173529,0.0 111.880215,-7.173224,0.0 111.879802,-7.17288,0.0 111.87914,-7.172699,0.0 111.878948,-7.172374,0.0 111.878631,-7.171906,0.0 111.879373,-7.168918,0.0 111.879367,-7.168917,0.0 111.879867,-7.167361,0.0 111.88032,-7.16623,0.0 111.880764,-7.165253,0.0 111.881131,-7.164472,0.0 111.881594,-7.163562,0.0 111.881895,-7.162872,0.0 111.882266,-7.161742,0.0 111.882502,-7.161081,0.0 111.882464,-7.160952,0.0 111.882003,-7.159416,0.0 111.882102,-7.158705,0.0 111.882274,-7.158368,0.0 111.882421,-7.15692,0.0 111.882465,-7.156493,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-7'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fff00ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-7-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fff00ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-7-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-7</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-7-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Mojokampung</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 6<br>
+<b>nama_desa:</b> Desa Mojokampung<br>
+<b>jml_pddk:</b> 4460
+</div>]]></description>
+			<styleUrl>#Style2-polygon-7-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>35</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>6</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>4460</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.889723285,-7.15663087807,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.883713,-7.157031,0.0 111.883786,-7.155589,0.0 111.884534,-7.155559,0.0 111.884662,-7.155185,0.0 111.885898,-7.155154,0.0 111.885999,-7.154939,0.0 111.886069,-7.154091,0.0 111.886717,-7.15442,0.0 111.887105,-7.154793,0.0 111.887566,-7.154907,0.0 111.888127,-7.155236,0.0 111.888225,-7.153915,0.0 111.88844,-7.153527,0.0 111.88959,-7.153654,0.0 111.89074,-7.153709,0.0 111.891488,-7.153851,0.0 111.892307,-7.153692,0.0 111.893918,-7.153846,0.0 111.893976,-7.154421,0.0 111.894781,-7.154333,0.0 111.894955,-7.154979,0.0 111.895073,-7.156357,0.0 111.895591,-7.156557,0.0 111.897347,-7.157615,0.0 111.896498,-7.158562,0.0 111.895912,-7.158898,0.0 111.895602,-7.159533,0.0 111.894775,-7.159487,0.0 111.892248,-7.159731,0.0 111.890055,-7.159735,0.0 111.888893,-7.159642,0.0 111.887215,-7.15931,0.0 111.886735,-7.15882,0.0 111.885344,-7.157949,0.0 111.883713,-7.157031,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-8'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f9ccbf9</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-8-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f9ccbf9</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-8-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-8</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-8-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Semanding</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 17<br>
+<b>nama_desa:</b> Desa Semanding<br>
+<b>jml_pddk:</b> 1367
+</div>]]></description>
+			<styleUrl>#Style2-polygon-8-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>103</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>17</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>1367</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.919400411,-7.16392252407,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.924663,-7.149286,0.0 111.925621,-7.149544,0.0 111.926484,-7.149753,0.0 111.926886,-7.149809,0.0 111.927183,-7.149789,0.0 111.92796,-7.149884,0.0 111.929302,-7.150053,0.0 111.931276,-7.150288,0.0 111.93108,-7.150634,0.0 111.930603,-7.152071,0.0 111.930401,-7.152706,0.0 111.930374,-7.153382,0.0 111.930365,-7.153631,0.0 111.930344,-7.154154,0.0 111.930562,-7.155469,0.0 111.930591,-7.15651,0.0 111.930698,-7.157458,0.0 111.930834,-7.158022,0.0 111.932265,-7.159541,0.0 111.931835,-7.160375,0.0 111.93153,-7.161076,0.0 111.931434,-7.161295,0.0 111.930929,-7.162435,0.0 111.930788,-7.163842,0.0 111.930868,-7.165364,0.0 111.931005,-7.166857,0.0 111.931496,-7.168129,0.0 111.932132,-7.169526,0.0 111.932681,-7.170913,0.0 111.933277,-7.172127,0.0 111.933654,-7.173553,0.0 111.933734,-7.174988,0.0 111.933744,-7.175371,0.0 111.933535,-7.176415,0.0 111.932925,-7.177708,0.0 111.931729,-7.178687,0.0 111.93075,-7.178325,0.0 111.930106,-7.177293,0.0 111.930085,-7.176441,0.0 111.930102,-7.175417,0.0 111.930187,-7.174775,0.0 111.930473,-7.17375,0.0 111.930719,-7.172582,0.0 111.930824,-7.172103,0.0 111.930706,-7.170859,0.0 111.930696,-7.170409,0.0 111.930348,-7.16907,0.0 111.929234,-7.167828,0.0 111.928896,-7.166498,0.0 111.928815,-7.164603,0.0 111.928812,-7.162918,0.0 111.928803,-7.162478,0.0 111.92879,-7.161875,0.0 111.928405,-7.160899,0.0 111.927542,-7.160747,0.0 111.926383,-7.160788,0.0 111.924888,-7.161231,0.0 111.92371,-7.161693,0.0 111.922476,-7.162883,0.0 111.921617,-7.164368,0.0 111.921073,-7.165671,0.0 111.920873,-7.166313,0.0 111.920673,-7.167041,0.0 111.920546,-7.167534,0.0 111.920312,-7.168439,0.0 111.919903,-7.169885,0.0 111.919713,-7.170651,0.0 111.918939,-7.172012,0.0 111.917867,-7.172761,0.0 111.916515,-7.172553,0.0 111.916839,-7.171653,0.0 111.916359,-7.171137,0.0 111.916921,-7.169231,0.0 111.917292,-7.16811,0.0 111.917685,-7.167937,0.0 111.91782,-7.167539,0.0 111.918171,-7.1665,0.0 111.916331,-7.166418,0.0 111.916663,-7.165029,0.0 111.916929,-7.163909,0.0 111.917158,-7.16342,0.0 111.917453,-7.162232,0.0 111.917691,-7.161303,0.0 111.9181,-7.159943,0.0 111.918385,-7.158583,0.0 111.918718,-7.157223,0.0 111.918746,-7.156802,0.0 111.919232,-7.155787,0.0 111.9195,-7.155183,0.0 111.919508,-7.15513,0.0 111.919736,-7.153737,0.0 111.920012,-7.152741,0.0 111.920415,-7.152788,0.0 111.920433,-7.152463,0.0 111.920136,-7.15231,0.0 111.92068,-7.150932,0.0 111.920756,-7.150739,0.0 111.921137,-7.149714,0.0 111.921529,-7.149158,0.0 111.922852,-7.149663,0.0 111.923648,-7.149699,0.0 111.923944,-7.14922,0.0 111.924663,-7.149286,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-9'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f9999ea</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-9-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f9999ea</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-9-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-9</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-9-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Kalirejo</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 16<br>
+<b>nama_desa:</b> Desa Kalirejo<br>
+<b>jml_pddk:</b> 2416
+</div>]]></description>
+			<styleUrl>#Style2-polygon-9-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>60</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>16</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>2416</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.926540386,-7.14106126627,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.920013,-7.143752,0.0 111.920065,-7.142961,0.0 111.920208,-7.142257,0.0 111.920422,-7.141661,0.0 111.920443,-7.141201,0.0 111.920769,-7.139097,0.0 111.920974,-7.137244,0.0 111.921223,-7.135995,0.0 111.921523,-7.134845,0.0 111.921758,-7.133962,0.0 111.922108,-7.132691,0.0 111.922451,-7.131858,0.0 111.922489,-7.131847,0.0 111.923403,-7.131871,0.0 111.92402,-7.131887,0.0 111.924925,-7.131835,0.0 111.925996,-7.131911,0.0 111.927082,-7.132038,0.0 111.928455,-7.132273,0.0 111.929383,-7.132457,0.0 111.93044,-7.132886,0.0 111.931203,-7.133337,0.0 111.931613,-7.133573,0.0 111.931989,-7.134541,0.0 111.932198,-7.13513,0.0 111.932387,-7.135926,0.0 111.932562,-7.136981,0.0 111.932664,-7.1379,0.0 111.932734,-7.139419,0.0 111.93264,-7.140341,0.0 111.932641,-7.140879,0.0 111.932523,-7.141741,0.0 111.932417,-7.14228,0.0 111.932455,-7.14356,0.0 111.932445,-7.144505,0.0 111.932076,-7.14593,0.0 111.931923,-7.146983,0.0 111.931626,-7.148025,0.0 111.931388,-7.149126,0.0 111.93133,-7.150191,0.0 111.931276,-7.150288,0.0 111.929302,-7.150053,0.0 111.92796,-7.149884,0.0 111.927183,-7.149789,0.0 111.926886,-7.149809,0.0 111.926484,-7.149753,0.0 111.925621,-7.149544,0.0 111.924663,-7.149286,0.0 111.924595,-7.148587,0.0 111.9249,-7.148136,0.0 111.923231,-7.147412,0.0 111.922579,-7.147251,0.0 111.922205,-7.14685,0.0 111.922243,-7.146648,0.0 111.922405,-7.146294,0.0 111.922413,-7.145471,0.0 111.920965,-7.145196,0.0 111.920447,-7.144939,0.0 111.919469,-7.144864,0.0 111.920013,-7.143752,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-10'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fdcd1ea</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-10-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fdcd1ea</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-10-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-10</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-10-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Mulyoagung</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 15<br>
+<b>nama_desa:</b> Desa Mulyoagung<br>
+<b>jml_pddk:</b> 3483
+</div>]]></description>
+			<styleUrl>#Style2-polygon-10-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>60</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>15</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>3483</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.912337845,-7.13906620115,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.916201,-7.144909,0.0 111.915304,-7.144836,0.0 111.914535,-7.144715,0.0 111.914226,-7.14478,0.0 111.912667,-7.14525,0.0 111.912172,-7.145574,0.0 111.911511,-7.145719,0.0 111.910713,-7.146065,0.0 111.90965,-7.146103,0.0 111.908392,-7.146048,0.0 111.90786,-7.146193,0.0 111.906725,-7.146274,0.0 111.90602,-7.146096,0.0 111.905905,-7.145996,0.0 111.905444,-7.145566,0.0 111.905205,-7.144884,0.0 111.905046,-7.144138,0.0 111.904707,-7.143579,0.0 111.904016,-7.143271,0.0 111.903455,-7.143128,0.0 111.904082,-7.137447,0.0 111.904552,-7.137532,0.0 111.906379,-7.137866,0.0 111.907522,-7.138043,0.0 111.908888,-7.138191,0.0 111.909835,-7.138283,0.0 111.90998,-7.138297,0.0 111.910398,-7.13849,0.0 111.910972,-7.138187,0.0 111.912,-7.138085,0.0 111.912927,-7.137896,0.0 111.913422,-7.13763,0.0 111.91419,-7.136846,0.0 111.914885,-7.136054,0.0 111.915732,-7.13522,0.0 111.916428,-7.134601,0.0 111.917095,-7.134004,0.0 111.918006,-7.133248,0.0 111.918918,-7.132766,0.0 111.919794,-7.132369,0.0 111.920649,-7.132037,0.0 111.921792,-7.132063,0.0 111.922451,-7.131858,0.0 111.922108,-7.132691,0.0 111.921758,-7.133962,0.0 111.921523,-7.134845,0.0 111.921223,-7.135995,0.0 111.920974,-7.137244,0.0 111.920769,-7.139097,0.0 111.920443,-7.141201,0.0 111.920422,-7.141661,0.0 111.920208,-7.142257,0.0 111.920065,-7.142961,0.0 111.920013,-7.143752,0.0 111.919419,-7.143773,0.0 111.918576,-7.143583,0.0 111.917627,-7.1437,0.0 111.917091,-7.143835,0.0 111.916612,-7.144276,0.0 111.916201,-7.144909,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-11'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fccf2ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-11-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fccf2ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-11-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-11</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-11-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Campurejo</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 10<br>
+<b>nama_desa:</b> Desa Campurejo<br>
+<b>jml_pddk:</b> 5334
+</div>]]></description>
+			<styleUrl>#Style2-polygon-11-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>60</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>10</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>5334</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.912065427,-7.14616331357,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.901292,-7.136957,0.0 111.901578,-7.137008,0.0 111.901813,-7.137049,0.0 111.903107,-7.137269,0.0 111.904082,-7.137447,0.0 111.903455,-7.143128,0.0 111.904016,-7.143271,0.0 111.904707,-7.143579,0.0 111.905046,-7.144138,0.0 111.905205,-7.144884,0.0 111.905444,-7.145566,0.0 111.905905,-7.145996,0.0 111.90602,-7.146096,0.0 111.906725,-7.146274,0.0 111.90786,-7.146193,0.0 111.908392,-7.146048,0.0 111.90965,-7.146103,0.0 111.910713,-7.146065,0.0 111.911511,-7.145719,0.0 111.912172,-7.145574,0.0 111.912667,-7.14525,0.0 111.914226,-7.14478,0.0 111.914535,-7.144715,0.0 111.915304,-7.144836,0.0 111.916201,-7.144909,0.0 111.916203,-7.145703,0.0 111.916072,-7.147159,0.0 111.915787,-7.148432,0.0 111.91508,-7.149745,0.0 111.914306,-7.150905,0.0 111.913876,-7.151537,0.0 111.913034,-7.152305,0.0 111.912337,-7.153244,0.0 111.911648,-7.154012,0.0 111.911015,-7.153611,0.0 111.910487,-7.153344,0.0 111.910027,-7.153182,0.0 111.909384,-7.152819,0.0 111.909278,-7.152619,0.0 111.908981,-7.152466,0.0 111.909047,-7.152208,0.0 111.908721,-7.15195,0.0 111.909055,-7.151145,0.0 111.90822,-7.150802,0.0 111.907482,-7.155369,0.0 111.899647,-7.153202,0.0 111.899795,-7.151055,0.0 111.899749,-7.149849,0.0 111.89946,-7.147722,0.0 111.899859,-7.145504,0.0 111.899935,-7.14392,0.0 111.9,-7.142675,0.0 111.899988,-7.141603,0.0 111.899872,-7.141048,0.0 111.899871,-7.140282,0.0 111.900013,-7.139765,0.0 111.90075,-7.139094,0.0 111.90097,-7.138653,0.0 111.901121,-7.137715,0.0 111.901292,-7.136957,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-12'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fcde5fc</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-12-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fcde5fc</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-12-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-12</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-12-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Ngrowo</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 9<br>
+<b>nama_desa:</b> Desa Ngrowo<br>
+<b>jml_pddk:</b> 5591
+</div>]]></description>
+			<styleUrl>#Style2-polygon-12-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>61</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>9</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>5591</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.897346056,-7.15275136279,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.899859,-7.145504,0.0 111.899667,-7.146571,0.0 111.899661,-7.146605,0.0 111.89946,-7.147722,0.0 111.899469,-7.14779,0.0 111.899655,-7.149156,0.0 111.899749,-7.149849,0.0 111.899795,-7.151055,0.0 111.899647,-7.153202,0.0 111.899564,-7.154533,0.0 111.900973,-7.154932,0.0 111.902604,-7.155571,0.0 111.902815,-7.155819,0.0 111.903218,-7.155818,0.0 111.903314,-7.156182,0.0 111.903852,-7.156535,0.0 111.903614,-7.157349,0.0 111.903367,-7.158805,0.0 111.90284,-7.158681,0.0 111.902525,-7.159381,0.0 111.90297,-7.159486,0.0 111.902432,-7.160477,0.0 111.901437,-7.159904,0.0 111.900274,-7.159404,0.0 111.899302,-7.1587,0.0 111.898979,-7.158665,0.0 111.897347,-7.157615,0.0 111.895591,-7.156557,0.0 111.895073,-7.156357,0.0 111.895031,-7.155868,0.0 111.894955,-7.154979,0.0 111.894781,-7.154333,0.0 111.894902,-7.154326,0.0 111.895152,-7.153739,0.0 111.894942,-7.153324,0.0 111.894963,-7.152949,0.0 111.895095,-7.152432,0.0 111.895053,-7.151376,0.0 111.895043,-7.151166,0.0 111.894793,-7.150688,0.0 111.894294,-7.15021,0.0 111.893651,-7.149752,0.0 111.893094,-7.14937,0.0 111.892403,-7.148768,0.0 111.89175,-7.148195,0.0 111.89219,-7.147629,0.0 111.892525,-7.147246,0.0 111.893119,-7.147025,0.0 111.893885,-7.146918,0.0 111.894173,-7.146879,0.0 111.895351,-7.146848,0.0 111.895658,-7.146742,0.0 111.895992,-7.14632,0.0 111.896299,-7.146109,0.0 111.896634,-7.145936,0.0 111.896834,-7.145505,0.0 111.896967,-7.145026,0.0 111.898223,-7.145148,0.0 111.899048,-7.145261,0.0 111.899517,-7.145385,0.0 111.899859,-7.145504,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-13'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fe3e0d0</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-13-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fe3e0d0</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-13-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-13</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-13-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Kauman</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 12<br>
+<b>nama_desa:</b> Desa Kauman<br>
+<b>jml_pddk:</b> 3720
+</div>]]></description>
+			<styleUrl>#Style2-polygon-13-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>41</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>12</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>3720</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.87570454,-7.149813682,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.870206,-7.147946,0.0 111.871298,-7.14754,0.0 111.872083,-7.147389,0.0 111.872927,-7.147483,0.0 111.873832,-7.147559,0.0 111.874701,-7.147654,0.0 111.87524,-7.147826,0.0 111.876019,-7.147902,0.0 111.876672,-7.148003,0.0 111.877175,-7.148068,0.0 111.878086,-7.148072,0.0 111.879482,-7.148159,0.0 111.87968,-7.148242,0.0 111.879908,-7.148559,0.0 111.880334,-7.149061,0.0 111.880592,-7.149449,0.0 111.88076,-7.149646,0.0 111.880935,-7.150107,0.0 111.881133,-7.150369,0.0 111.881277,-7.150417,0.0 111.881505,-7.150554,0.0 111.8806,-7.150424,0.0 111.879642,-7.150426,0.0 111.879432,-7.15051,0.0 111.879313,-7.150756,0.0 111.879367,-7.152238,0.0 111.878693,-7.152177,0.0 111.878161,-7.152173,0.0 111.877567,-7.15216,0.0 111.876661,-7.15208,0.0 111.875951,-7.152034,0.0 111.875062,-7.151965,0.0 111.875046,-7.151964,0.0 111.874188,-7.151807,0.0 111.87319,-7.151646,0.0 111.871959,-7.151481,0.0 111.870851,-7.151344,0.0 111.87073,-7.150556,0.0 111.870461,-7.149178,0.0 111.870237,-7.148173,0.0 111.870206,-7.147946,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-14'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7ff3e2cf</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-14-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7ff3e2cf</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-14-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-14</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-14-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Ledok Wetan</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 13<br>
+<b>nama_desa:</b> Desa Ledok Wetan<br>
+<b>jml_pddk:</b> 4898
+</div>]]></description>
+			<styleUrl>#Style2-polygon-14-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>50</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>13</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>4898</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.878378463,-7.14612495835,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.881505,-7.150554,0.0 111.881277,-7.150417,0.0 111.881133,-7.150369,0.0 111.880935,-7.150107,0.0 111.88076,-7.149646,0.0 111.880592,-7.149449,0.0 111.880334,-7.149061,0.0 111.879908,-7.148559,0.0 111.87968,-7.148242,0.0 111.879482,-7.148159,0.0 111.878086,-7.148072,0.0 111.877175,-7.148068,0.0 111.876672,-7.148003,0.0 111.876019,-7.147902,0.0 111.87524,-7.147826,0.0 111.874701,-7.147654,0.0 111.873832,-7.147559,0.0 111.872927,-7.147483,0.0 111.872083,-7.147389,0.0 111.871298,-7.14754,0.0 111.870206,-7.147946,0.0 111.870189,-7.147818,0.0 111.870098,-7.147147,0.0 111.869809,-7.146322,0.0 111.869777,-7.146241,0.0 111.870185,-7.146169,0.0 111.870855,-7.146052,0.0 111.871789,-7.146086,0.0 111.873371,-7.146239,0.0 111.874246,-7.146345,0.0 111.875228,-7.146522,0.0 111.875443,-7.146067,0.0 111.875825,-7.145181,0.0 111.876242,-7.144259,0.0 111.876637,-7.143672,0.0 111.877174,-7.142893,0.0 111.877879,-7.142102,0.0 111.878714,-7.141696,0.0 111.879196,-7.142449,0.0 111.87919,-7.142822,0.0 111.879883,-7.144558,0.0 111.880215,-7.14524,0.0 111.880566,-7.145589,0.0 111.880719,-7.145741,0.0 111.880827,-7.145849,0.0 111.881311,-7.14597,0.0 111.881339,-7.145977,0.0 111.881343,-7.146261,0.0 111.881574,-7.146902,0.0 111.881505,-7.150554,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-15'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-15-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-15-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-15</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-15-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Kepatihan</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 7<br>
+<b>nama_desa:</b> Desa Kepatihan<br>
+<b>jml_pddk:</b> 2439
+</div>]]></description>
+			<styleUrl>#Style2-polygon-15-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>42</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>7</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>2439</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.88239779,-7.15372769483,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.881505,-7.150554,0.0 111.882899,-7.150546,0.0 111.883015,-7.15112,0.0 111.88293,-7.152068,0.0 111.883189,-7.152173,0.0 111.884071,-7.152228,0.0 111.88525,-7.152274,0.0 111.885959,-7.152321,0.0 111.886075,-7.152483,0.0 111.886114,-7.152971,0.0 111.886069,-7.154091,0.0 111.885999,-7.154939,0.0 111.885898,-7.155154,0.0 111.884662,-7.155185,0.0 111.884534,-7.155559,0.0 111.883786,-7.155589,0.0 111.883713,-7.157031,0.0 111.883398,-7.156814,0.0 111.883091,-7.156528,0.0 111.883067,-7.156514,0.0 111.882698,-7.156308,0.0 111.882501,-7.15628,0.0 111.882465,-7.156493,0.0 111.879542,-7.154696,0.0 111.879684,-7.154491,0.0 111.879219,-7.154296,0.0 111.879041,-7.154129,0.0 111.878902,-7.154029,0.0 111.878787,-7.153852,0.0 111.878672,-7.153661,0.0 111.878664,-7.153638,0.0 111.878575,-7.153388,0.0 111.878575,-7.153034,0.0 111.878662,-7.152992,0.0 111.879714,-7.152486,0.0 111.87957,-7.152257,0.0 111.879367,-7.152238,0.0 111.879313,-7.150756,0.0 111.879432,-7.15051,0.0 111.879642,-7.150426,0.0 111.8806,-7.150424,0.0 111.881505,-7.150554,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-16'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fccccf4</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-16-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fccccf4</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-16-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-16</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-16-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Kadipaten</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 8<br>
+<b>nama_desa:</b> Desa Kadipaten<br>
+<b>jml_pddk:</b> 4094
+</div>]]></description>
+			<styleUrl>#Style2-polygon-16-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>69</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>8</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>4094</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.88384967,-7.15050543903,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.89175,-7.148195,0.0 111.892403,-7.148768,0.0 111.893094,-7.14937,0.0 111.893651,-7.149752,0.0 111.894294,-7.15021,0.0 111.894793,-7.150688,0.0 111.895043,-7.151166,0.0 111.895053,-7.151376,0.0 111.895095,-7.152432,0.0 111.894963,-7.152949,0.0 111.894942,-7.153324,0.0 111.895152,-7.153739,0.0 111.895102,-7.153858,0.0 111.894902,-7.154326,0.0 111.894781,-7.154333,0.0 111.893976,-7.154421,0.0 111.893919,-7.153861,0.0 111.893918,-7.153846,0.0 111.892307,-7.153692,0.0 111.891488,-7.153851,0.0 111.89074,-7.153709,0.0 111.88959,-7.153654,0.0 111.88844,-7.153527,0.0 111.888249,-7.153872,0.0 111.888225,-7.153915,0.0 111.888127,-7.155236,0.0 111.887566,-7.154907,0.0 111.887105,-7.154793,0.0 111.886717,-7.15442,0.0 111.886069,-7.154091,0.0 111.886078,-7.153876,0.0 111.886114,-7.152971,0.0 111.886075,-7.152483,0.0 111.885959,-7.152321,0.0 111.88525,-7.152274,0.0 111.884071,-7.152228,0.0 111.883189,-7.152173,0.0 111.88293,-7.152068,0.0 111.883015,-7.15112,0.0 111.882899,-7.150546,0.0 111.881505,-7.150554,0.0 111.881574,-7.146902,0.0 111.881343,-7.146261,0.0 111.881339,-7.145977,0.0 111.882078,-7.146162,0.0 111.882402,-7.146205,0.0 111.882672,-7.146145,0.0 111.882991,-7.146074,0.0 111.883044,-7.146056,0.0 111.883788,-7.1458,0.0 111.883831,-7.145775,0.0 111.884065,-7.146242,0.0 111.884167,-7.146637,0.0 111.884204,-7.147121,0.0 111.884326,-7.14806,0.0 111.884729,-7.148951,0.0 111.885005,-7.149441,0.0 111.885851,-7.150223,0.0 111.886307,-7.150599,0.0 111.886595,-7.150802,0.0 111.887338,-7.150896,0.0 111.888045,-7.150961,0.0 111.888842,-7.150953,0.0 111.889638,-7.150946,0.0 111.890064,-7.150933,0.0 111.890798,-7.149711,0.0 111.891043,-7.149184,0.0 111.891341,-7.148711,0.0 111.89175,-7.148195,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-17'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fd3ead9</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-17-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fd3ead9</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-17-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-17</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-17-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Karangpacar</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 11<br>
+<b>nama_desa:</b> Desa Karangpacar<br>
+<b>jml_pddk:</b> 5267
+</div>]]></description>
+			<styleUrl>#Style2-polygon-17-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>56</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>11</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>5267</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.888934463,-7.14694656065,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.884167,-7.146637,0.0 111.884884,-7.146399,0.0 111.886159,-7.146014,0.0 111.886758,-7.145857,0.0 111.887495,-7.1457,0.0 111.887806,-7.14564,0.0 111.890338,-7.144959,0.0 111.892056,-7.144471,0.0 111.89323,-7.144205,0.0 111.894206,-7.144012,0.0 111.894733,-7.143981,0.0 111.895326,-7.143794,0.0 111.895942,-7.143518,0.0 111.89666,-7.143301,0.0 111.897307,-7.143168,0.0 111.898139,-7.142981,0.0 111.898696,-7.142932,0.0 111.899071,-7.144427,0.0 111.899311,-7.144756,0.0 111.89961,-7.144863,0.0 111.899886,-7.144952,0.0 111.899859,-7.145504,0.0 111.899517,-7.145385,0.0 111.899048,-7.145261,0.0 111.898223,-7.145148,0.0 111.896967,-7.145026,0.0 111.896834,-7.145505,0.0 111.896649,-7.145904,0.0 111.896634,-7.145936,0.0 111.896299,-7.146109,0.0 111.895992,-7.14632,0.0 111.895658,-7.146742,0.0 111.895351,-7.146848,0.0 111.894433,-7.146872,0.0 111.894173,-7.146879,0.0 111.893885,-7.146918,0.0 111.893119,-7.147025,0.0 111.892525,-7.147246,0.0 111.89219,-7.147629,0.0 111.89175,-7.148195,0.0 111.891341,-7.148711,0.0 111.891043,-7.149184,0.0 111.890798,-7.149711,0.0 111.890064,-7.150933,0.0 111.889638,-7.150946,0.0 111.888842,-7.150953,0.0 111.888045,-7.150961,0.0 111.887338,-7.150896,0.0 111.886595,-7.150802,0.0 111.886307,-7.150599,0.0 111.885851,-7.150223,0.0 111.885005,-7.149441,0.0 111.884729,-7.148951,0.0 111.884326,-7.14806,0.0 111.884204,-7.147121,0.0 111.884167,-7.146637,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Style id='Style2-polygon-18'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fe9d2d9</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-18-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7fe9d2d9</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-18-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-18</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-18-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Desa Banjarejo</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>id_desa:</b> 14<br>
+<b>nama_desa:</b> Desa Banjarejo<br>
+<b>jml_pddk:</b> 7360
+</div>]]></description>
+			<styleUrl>#Style2-polygon-18-map</styleUrl>
+			<ExtendedData>
+				<Data name='geometry_vertex_count'>
+					<value>69</value>
+				</Data>
+				<Data name='Id'>
+					<value></value>
+				</Data>
+				<Data name='id_desa'>
+					<value>14</value>
+				</Data>
+				<Data name='jml_pddk'>
+					<value>7360</value>
+				</Data>
+				<Data name='luas_desa'>
+					<value></value>
+				</Data>
+				<Data name='import_notes'>
+					<value></value>
+				</Data>
+				<Data name='geometry_pos'>
+					<value>&lt;Point&gt;&lt;coordinates&gt;111.894515678,-7.14125315352,0&lt;/coordinates&gt;&lt;/Point&gt;</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>111.883831,-7.145775,0.0 111.883859,-7.145759,0.0 111.88408,-7.145613,0.0 111.885193,-7.144961,0.0 111.885889,-7.144478,0.0 111.887045,-7.143672,0.0 111.887991,-7.142536,0.0 111.888572,-7.141853,0.0 111.88901,-7.141435,0.0 111.889397,-7.140774,0.0 111.88964,-7.140185,0.0 111.890162,-7.138849,0.0 111.890376,-7.138044,0.0 111.89067,-7.13744,0.0 111.891235,-7.136362,0.0 111.891479,-7.136204,0.0 111.89204,-7.135959,0.0 111.892507,-7.135908,0.0 111.892974,-7.135957,0.0 111.893103,-7.135878,0.0 111.893685,-7.13587,0.0 111.894253,-7.136041,0.0 111.895648,-7.13616,0.0 111.897395,-7.136329,0.0 111.897783,-7.1364,0.0 111.898057,-7.136486,0.0 111.898272,-7.136464,0.0 111.898581,-7.136528,0.0 111.899157,-7.136591,0.0 111.900609,-7.136883,0.0 111.901282,-7.137002,0.0 111.901121,-7.137715,0.0 111.90097,-7.138653,0.0 111.90075,-7.139094,0.0 111.900013,-7.139765,0.0 111.899871,-7.140282,0.0 111.899872,-7.141048,0.0 111.899988,-7.141603,0.0 111.9,-7.142675,0.0 111.899935,-7.14392,0.0 111.899886,-7.144952,0.0 111.89961,-7.144863,0.0 111.899311,-7.144756,0.0 111.899071,-7.144427,0.0 111.898696,-7.142932,0.0 111.898139,-7.142981,0.0 111.897307,-7.143168,0.0 111.89666,-7.143301,0.0 111.895942,-7.143518,0.0 111.895326,-7.143794,0.0 111.894733,-7.143981,0.0 111.894206,-7.144012,0.0 111.89323,-7.144205,0.0 111.892056,-7.144471,0.0 111.8904,-7.144941,0.0 111.890338,-7.144959,0.0 111.890307,-7.144967,0.0 111.888344,-7.145495,0.0 111.888197,-7.145534,0.0 111.887806,-7.14564,0.0 111.887495,-7.1457,0.0 111.886758,-7.145857,0.0 111.886159,-7.146014,0.0 111.884884,-7.146399,0.0 111.884167,-7.146637,0.0 111.884065,-7.146242,0.0 111.884002,-7.146118,0.0 111.883895,-7.145903,0.0 111.883831,-7.145775,0.0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+	</Document>
+</kml>
